@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitCase - Your Go-To for iPhone Accessories</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom font family for Inter */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+<!-- Header Section -->
+<header class="bg-white shadow-sm py-4 px-6 md:px-12 flex justify-between items-center rounded-b-lg">
+    <div class="text-2xl font-bold text-indigo-600">
+        FitCase
+    </div>
+    <nav class="hidden md:flex space-x-8">
+        <a href="#" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300 ease-in-out">Home</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300 ease-in-out">Cases</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300 ease-in-out">Protectors</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300 ease-in-out">Chargers</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300 ease-in-out">About Us</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-300 ease-in-out">Contact</a>
+    </nav>
+    <div class="flex items-center space-x-4">
+        <!-- Cart Icon (using SVG for simplicity) -->
+        <a href="#" class="text-gray-600 hover:text-indigo-600">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+        </a>
+        <!-- Mobile Menu Button (Hamburger) -->
+        <button class="md:hidden text-gray-600 hover:text-indigo-600 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="bg-indigo-600 text-white py-16 md:py-24 px-6 md:px-12 flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 rounded-lg m-4 shadow-lg">
+    <div class="text-center md:text-left max-w-xl">
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+            Elevate Your iPhone Experience
+        </h1>
+        <p class="text-lg md:text-xl mb-8 opacity-90">
+            Discover premium iPhone accessories designed for style, protection, and performance.
+        </p>
+        <a href="#" class="inline-block bg-white text-indigo-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out transform hover:scale-105">
+            Shop All Accessories
+        </a>
+    </div>
+    <div class="w-full md:w-1/2 max-w-md">
+        <!-- Placeholder Image for Hero -->
+        <img src="https://placehold.co/600x400/6366F1/FFFFFF?text=Premium+iPhone+Accessories" alt="iPhone Accessories" class="rounded-xl shadow-2xl w-full h-auto object-cover">
+    </div>
+</section>
+
+<!-- Product Categories Section -->
+<section class="py-16 px-6 md:px-12">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Explore Our Categories</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Category Card 1: Phone Cases -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
+            <img src="https://placehold.co/300x200/F1F5F9/1E293B?text=iPhone+Cases" alt="iPhone Cases" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Phone Cases</h3>
+            <p class="text-gray-600 mb-4">Stylish and protective cases for every iPhone model.</p>
+            <a href="#" class="text-indigo-600 hover:underline font-medium">View Collection &rarr;</a>
+        </div>
+        <!-- Category Card 2: Screen Protectors -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
+            <img src="https://placehold.co/300x200/F1F5F9/1E293B?text=Screen+Protectors" alt="Screen Protectors" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Screen Protectors</h3>
+            <p class="text-gray-600 mb-4">Keep your screen pristine with our durable glass protectors.</p>
+            <a href="#" class="text-indigo-600 hover:underline font-medium">View Collection &rarr;</a>
+        </div>
+        <!-- Category Card 3: Chargers & Cables -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
+            <img src="https://placehold.co/300x200/F1F5F9/1E293B?text=Chargers+and+Cables" alt="Chargers and Cables" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-semibold mb-2">Chargers & Cables</h3>
+            <p class="text-gray-600 mb-4">Fast charging adapters and durable cables for all your needs.</p>
+            <a href="#" class="text-indigo-600 hover:underline font-medium">View Collection &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products Section -->
+<section class="bg-gray-100 py-16 px-6 md:px-12 rounded-lg m-4 shadow-inner">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Bestsellers</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Product Card 1 -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
+            <img src="https://placehold.co/200x200/E0E7FF/4F46E5?text=Clear+Case" alt="Clear iPhone Case" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h3 class="text-lg font-semibold mb-1">Ultra-Clear iPhone Case</h3>
+            <p class="text-gray-700 font-bold mb-3">$19.99</p>
+            <button class="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-300 ease-in-out">Add to Cart</button>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
+            <img src="https://placehold.co/200x200/E0E7FF/4F46E5?text=Tempered+Glass" alt="Tempered Glass Protector" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h3 class="text-lg font-semibold mb-1">Tempered Glass Protector</h3>
+            <p class="text-gray-700 font-bold mb-3">$12.99</p>
+            <button class="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-300 ease-in-out">Add to Cart</button>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
+            <img src="https://placehold.co/200x200/E0E7FF/4F46E5?text=Fast+Charger" alt="Fast Charger Adapter" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h3 class="text-lg font-semibold mb-1">20W USB-C Fast Charger</h3>
+            <p class="text-gray-700 font-bold mb-3">$24.99</p>
+            <button class="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-300 ease-in-out">Add to Cart</button>
+        </div>
+        <!-- Product Card 4 -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out text-center">
+            <img src="https://placehold.co/200x200/E0E7FF/4F46E5?text=Braided+Cable" alt="Braided Lightning Cable" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h3 class="text-lg font-semibold mb-1">Durable Braided Lightning Cable</h3>
+            <p class="text-gray-700 font-bold mb-3">$14.99</p>
+            <button class="bg-indigo-600 text-white py-2 px-4 rounded-full hover:bg-indigo-700 transition duration-300 ease-in-out">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section class="py-16 px-6 md:px-12 bg-white rounded-lg m-4 shadow-lg">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Why Choose FitCase?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div class="p-6 rounded-xl bg-gray-50 shadow-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.003 12.003 0 002.92 12c0 3.072 1.243 5.861 3.295 7.913l3.295 3.295L12 22.083l2.49-2.49c2.052-2.052 3.295-4.841 3.295-7.913a12.003 12.003 0 00-1.07-5.04z" />
+            </svg>
+            <h3 class="text-xl font-semibold mb-2">Quality Guaranteed</h3>
+            <p class="text-gray-600">We source only the best materials for lasting durability.</p>
+        </div>
+        <div class="p-6 rounded-xl bg-gray-50 shadow-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+            <h3 class="text-xl font-semibold mb-2">Fast Shipping</h3>
+            <p class="text-gray-600">Get your accessories delivered quickly to your doorstep.</p>
+        </div>
+        <div class="p-6 rounded-xl bg-gray-50 shadow-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+            <h3 class="text-xl font-semibold mb-2">Secure Payments</h3>
+            <p class="text-gray-600">Shop with confidence using our secure payment gateways.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter/CTA Section -->
+<section class="bg-indigo-500 text-white py-16 px-6 md:px-12 text-center rounded-lg m-4 shadow-lg">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Stay Updated!</h2>
+    <p class="text-lg mb-8 opacity-90">
+        Join our newsletter for exclusive deals and new product announcements.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <input type="email" placeholder="Enter your email" class="p-3 rounded-full w-full max-w-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-200">
+        <button class="bg-white text-indigo-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 ease-in-out transform hover:scale-105">
+            Subscribe
+        </button>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-gray-900 text-gray-300 py-10 px-6 md:px-12 rounded-t-lg">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- About FitCase -->
+        <div>
+            <h3 class="text-xl font-bold text-white mb-4">FitCase</h3>
+            <p class="text-sm">Your ultimate destination for high-quality iPhone cases, screen protectors, and charging solutions. We're committed to enhancing your iPhone experience.</p>
+        </div>
+        <!-- Quick Links -->
+        <div>
+            <h3 class="text-xl font-bold text-white mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+                <li><a href="#" class="hover:text-white transition duration-200 ease-in-out text-sm">Shop All</a></li>
+                <li><a href="#" class="hover:text-white transition duration-200 ease-in-out text-sm">FAQs</a></li>
+                <li><a href="#" class="hover:text-white transition duration-200 ease-in-out text-sm">Shipping & Returns</a></li>
+                <li><a href="#" class="hover:text-white transition duration-200 ease-in-out text-sm">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <!-- Contact Info -->
+        <div>
+            <h3 class="text-xl font-bold text-white mb-4">Contact Us</h3>
+            <p class="text-sm">Email: <a href="mailto:support@fitcase.com" class="hover:text-white">support@fitcase.com</a></p>
+            <p class="text-sm">Phone: (123) 456-7890</p>
+            <div class="flex space-x-4 mt-4">
+                <!-- Social Media Icons (placeholders) -->
+                <a href="#" class="text-gray-400 hover:text-white transition duration-200 ease-in-out">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.772 1.668 4.92 4.92.058 1.265.069 1.645.069 4.849 0 3.204-.012 3.584-.07 4.85-.148 3.252-1.668 4.772-4.92 4.92-1.265.058-1.645.069-4.849.069-3.204 0-3.584-.012-4.85-.07-3.252-.148-4.772-1.668-4.92-4.92-.058-1.265-.069-1.645-.069-4.849 0-3.204.012-3.584.07-4.85.148-3.252 1.668-4.772 4.92-4.92 1.265-.058 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.62-6.98 6.98-.058 1.28-.072 1.689-.072 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.62 6.78 6.98 6.98 1.28.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.78-2.62 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.073-4.947-.196-4.354-2.62-6.78-6.979-6.98-1.28-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-200 ease-in-out">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .732.593 1.324 1.325 1.324h21.35c.732 0 1.325-.592 1.325-1.324V1.325c0-.732-.593-1.325-1.325-1.325zm-11.454 19.333H7.23V9.458h3.991v9.875zm-2.003-10.74c-1.329 0-2.19-.914-2.19-2.015 0-1.102.86-2.016 2.177-2.016 1.318 0 2.19.914 2.19 2.016 0 1.101-.861 2.015-2.177 2.015zm11.455 10.74h-3.99v-6.004c0-.732-.014-1.325-.247-1.795-.224-.453-.66-.732-1.44-.732-.988 0-1.405.677-1.643 1.325-.237.648-.293 1.54-.293 2.585v4.621h-3.99v-9.875h3.99v1.758c.528-.908 1.173-1.64 2.64-1.64 1.935 0 3.362 1.262 3.362 3.978v6.004z"/></svg>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-200 ease-in-out">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 7.5c-.828 0-1.5-.672-1.5-1.5s.672-1.5 1.5-1.5 1.5.672 1.5 1.5-.672 1.5-1.5 1.5zm-1.5 10.5h-9v-9h9v9zm-4.5-9h-4.5v4.5h4.5v-4.5z"/></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center text-sm mt-8 border-t border-gray-700 pt-6">
+        &copy; 2025 FitCase. All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>
